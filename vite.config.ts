@@ -7,7 +7,6 @@ export default defineConfig({
   build: {
     sourcemap: 'hidden',
   },
-  base: '/lindpage',
   plugins: [
     react({
       babel: {
